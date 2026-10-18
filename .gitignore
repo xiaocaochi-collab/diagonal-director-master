@@ -1,0 +1,26 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Machine-local files
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
+*.log
+
+# Project state and personal creative assets
+.diagonal*/
+.diagonal*
+.storyboard_project_state.json
+.storyboard_project_state.json.*
+DIAGONAL资产库/
+
+# Packaged copies
+*.zip

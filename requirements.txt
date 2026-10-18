@@ -1,0 +1,2 @@
+# Only the emotion-curve renderer needs this external dependency.
+Pillow>=10.0
