@@ -1,8 +1,8 @@
-<p align="center">
-  <img src="assets/logo-black.png" alt="DIAGONAL" width="280">
-</p>
+![DIAGONAL导演大师：AI漫剧与AI视频的导演工作流](assets/social-preview.png)
 
 # DIAGONAL导演大师
+
+[![skills.sh](https://skills.sh/b/xiaocaochi-collab/diagonal-director-master)](https://skills.sh/xiaocaochi-collab/diagonal-director-master/diagonal-director-master)
 
 作者：**DIAGONAL**
 
@@ -13,6 +13,26 @@
 把第三人称短片剧本逐场拆解成可执行的文字分镜，并管理光影、表演、剧情时间与跨场连续性。
 
 适合需要持续推敲镜头、保留创作决定，并把正式分镜进一步转成 AIGC 提示词的AI漫剧、AI视频生成的创作者。
+
+## 一条命令安装
+
+需要 Node.js **22.20.0 或更高版本**（用于运行当前 skills CLI）：
+
+```sh
+npx skills add xiaocaochi-collab/diagonal-director-master
+```
+
+按安装器提示选择宿主和安装范围。已使用 skills CLI 1.7.2 验证 Codex 项目安装：脚本、专业模块、品牌素材与中文启动文件完整复制。安装不会自动配置 Python 或安装 Pillow，运行环境见下方“环境与安装”。
+
+[在 skills.sh 查看与安装](https://skills.sh/xiaocaochi-collab/diagonal-director-master/diagonal-director-master) · [下载完整安装包](https://github.com/xiaocaochi-collab/diagonal-director-master/releases/latest)
+
+## English overview
+
+**DIAGONAL Director Master** is an agent skill for creators of AI comics, short films, and AI-generated videos. It turns third-person scripts into shot-by-shot storyboards, with lighting design, performance direction, duration checks, and continuity tracking. It also prepares Midjourney location prompts and Seedance 2.0 video prompts, and organizes production assets in a local library.
+
+**Requirements:** Python 3.10+; Pillow for emotion-curve charts. The current skills CLI requires Node.js 22.20+. Installation has been verified with Codex; other hosts require their own compatibility checks. The directing workflow and outputs are primarily in Chinese.
+
+**License:** Free for commercial use. Republishing modified versions, repackaging, or redistributing the skill requires separate written permission. See [LICENSE](LICENSE). **Contact:** [diagonal@diagonalai.cn](mailto:diagonal@diagonalai.cn) · WeChat: `Cheeeed_zh`.
 
 ## 能做什么
 
