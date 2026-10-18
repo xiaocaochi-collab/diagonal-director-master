@@ -6,6 +6,10 @@
 
 作者：**DIAGONAL**
 
+工作邮箱：[diagonal@diagonalai.cn](mailto:diagonal@diagonalai.cn)
+
+微信：**Cheeeed_zh**
+
 把第三人称短片剧本逐场拆解成可执行的文字分镜，并管理光影、表演、剧情时间与跨场连续性。
 
 适合需要持续推敲镜头、保留创作决定，并把正式分镜进一步转成 AIGC 提示词的创作者。
@@ -90,6 +94,12 @@ python3 -B scripts/asset_server.py start --open
 ```
 
 macOS 也可双击 `打开资产库.command`，Windows 可双击 `打开资产库.cmd`。浏览器地址由启动器返回，不固定端口。
+
+macOS 如果提示启动文件没有执行权限，在技能目录运行一次：
+
+```sh
+chmod +x 打开资产库.command
+```
 
 网页用于本机文件管理，不提供云同步。项目成果保存在资产库中，模型工作记忆与事务记录放在隐藏目录。不要把个人资产库一起提交到代码仓库。
 
