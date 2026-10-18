@@ -1,0 +1,4 @@
+interface:
+  display_name: "DIAGONAL导演大师"
+  short_description: "逐场分镜、提示词与本机项目素材库"
+  default_prompt: "使用 $diagonal-director-master 将我的第三人称剧本逐场拆解为可执行分镜。"
